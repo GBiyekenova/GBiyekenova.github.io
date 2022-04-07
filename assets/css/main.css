@@ -3013,9 +3013,17 @@ input, select, textarea {
 		flex-wrap: wrap;
 	}
 
+	.svg1 {
+		display: flex;
+		justify-content: space-around;
+		list-style: none;
+		flex-wrap: wrap;
+	}
+
 	.svg-height {
 		height: 140px;
 	}
+
 
 /* Table */
 
