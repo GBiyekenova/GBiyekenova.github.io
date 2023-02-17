@@ -25,7 +25,7 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
-article, aside, details, figcaption, figure,
+aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
@@ -2692,7 +2692,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		margin-left: -1rem;
-		padding-left: 0;
+		padding-left: 0; 
 	}
 
 		ul.actions li {
@@ -3323,7 +3323,8 @@ input, select, textarea {
 
 	#intro {
 		color: #ffffff;
-		padding: 8rem 4rem 6rem 4rem ;
+		/* padding: 8rem 4rem 6rem 4rem ; */
+		padding: 2rem 4rem 4rem 4rem ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3820,7 +3821,8 @@ input, select, textarea {
 		}
 
 		#main > .post {
-			padding: 8rem 6rem 6rem 6rem ;
+			/* padding: 8rem 6rem 6rem 6rem ; */
+			padding: 4rem 6rem 6rem 6rem ;
 		}
 
 			#main > .post header.major > .date {
@@ -3908,10 +3910,13 @@ input, select, textarea {
 				border-style: solid;
 				border-top-width: 2px;
 				text-align: center;
+				display: flex;
+				flex-direction: column;
 			}
 
 				#main > .posts > article > :last-child {
 					margin-bottom: 0;
+					margin-top: auto;
 				}
 
 				#main > .posts > article:nth-child(2n - 1) {
